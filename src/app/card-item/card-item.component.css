@@ -1,0 +1,56 @@
+.pc_list {
+  margin: 2% auto;
+}
+.dofc-card{
+  height: 400px;
+  width: 250px;
+  padding: 5px;
+  background-color: white;
+  box-shadow: -.1em -.1em 2em grey;
+}
+
+.dofc-content {
+  margin: 15px 5px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 90%;
+  text-align: center;
+}
+
+.dofc-value {
+  margin: auto;
+  font-size: 40px;
+}
+
+.icon {
+  height: 48px;
+  width: 48px;
+  display: inline-flex;
+  align-self: center;
+}
+.icon-spade {
+  background-image: url('../../assets/images/spade.svg');
+}
+.icon-club {
+  background-image: url('../../assets/images/club.svg');
+}
+.icon-diamond {
+  background-image: url('../../assets/images/diamond.svg');
+}
+.icon-heart {
+  background-image: url('../../assets/images/heart.svg');
+}
+.border-red {
+  border: 1px solid red;
+}
+.border-black {
+  border: 1px solid black;
+}
+.red {
+  color: red;
+}
+.black {
+  color: black;
+}

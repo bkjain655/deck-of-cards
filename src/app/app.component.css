@@ -1,0 +1,39 @@
+.dofc-header {
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  background-color: indigo;
+  color: #fff8dc;
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+.dofc-header > h1 {
+  margin: auto;
+}
+.dofc-showhide{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  top: 100px;
+  position: relative;
+}
+.dofc-showlist {
+  margin:auto;
+}
+input {
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+label {
+  width: 200px;
+  vertical-align: middle;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.hide{
+  display: none;
+}
